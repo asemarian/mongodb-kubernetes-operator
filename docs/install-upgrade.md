@@ -310,4 +310,4 @@ kubectl apply -f -
 *`secret_name` is what you've specified under `Spec.Security.TLS.CertificateKeySecret.Name`*.
 
 If you're using a tool like cert-manager, you can follow [these instructions](https://cert-manager.io/docs/usage/certificate/#renewal) to rotate the certificate.
-The operator should would watch the secret change and re-trigger a reconcile process.
+The operator should watch the secret change and re-trigger a reconcile process.
